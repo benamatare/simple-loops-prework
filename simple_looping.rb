@@ -31,6 +31,7 @@ phrase = "Welcome to Flatiron School's Web Development Course!"
 until counter == 7
   puts phrase
   counter += 1 #increment by 1
+  break
 end
 end
 
