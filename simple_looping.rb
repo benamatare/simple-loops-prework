@@ -14,7 +14,7 @@ end
 
 def times_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
-prints phrase.times(number_of_times)
+puts number_of_times.times do phrase
 end
 
 def while_iterator(number_of_times)
