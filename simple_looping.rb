@@ -12,7 +12,7 @@ phrase = "Welcome to Flatiron School's Web Development Course!"
 
 counter = 0
   loop do
-    counter = counter + 1
+    counter = counter + number_of_times
       puts phrase
 
     if counter < number_of_times
