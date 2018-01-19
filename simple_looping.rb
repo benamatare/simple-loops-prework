@@ -1,5 +1,5 @@
 # REMEMBER: print your output to the terminal using 'puts'
-
+gloabl_phrase = "Welcome to Flatiron School's Web Development Course!"
 def loop_iterator(number_of_times)
   # Code your solution here using the "loop" keyword to puts out the below phrase
   # This and all the other methods take an argument of an integer
@@ -29,9 +29,8 @@ def until_iterator(number_of_times)
 phrase = "Welcome to Flatiron School's Web Development Course!"
   counter = 0 #where we start
 until counter == 7
-  puts phrase
+  puts global_phrase
   counter += 1 #increment by 1
-
 end
 end
 
