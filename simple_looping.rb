@@ -25,8 +25,8 @@ def while_iterator(number_of_times)
   counter = 0 #where we start
   while counter < 7
     puts phrase
-    counter += 1 #increment 
-  
+    counter += 1 #increment
+
 end
 end
 
